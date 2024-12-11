@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank Bonny Charlize - Portfolio</title>
+    <link rel="stylesheet" href="css/estilo02.css">
+</head>
+<body>
+    <!-- Contenedor Principal -->
+    <div class="contenedor">
+        <!-- Imagen Principal -->
+        <div class="img">
+            <img src="img/img_principal.png" width="570" height="800" alt="Frank Bonny">
+        </div>
+    
+        <!-- Cuerpo -->
+        <div class="cuerpo">
+            <!-- Navbar -->
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#especialidad">Especialidades</a></li>
+                <!-- Enlace actualizado -->
+                <li><a href="#quien-soy">Currículo</a></li>
+                <li><a href="#contacto" class="contact-button">CONTACTO</a></li>
+            </ul>
+    
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <h1>Hello, I am <br> <span>Frank Bonny</span></h1>
+                <p>I am a student of the Information Technology Platform Architecture program and I am a web programmer.</p>
+    
+                <!-- Skills Icons -->
+                <div class="skills-icons">
+                    <img src="img/Python.webp" alt="Python" class="skill-icon">
+                    <img src="img/Js.webp" alt="JavaScript" class="skill-icon">
+                    <img src="img/figma.webp" alt="Figma" class="skill-icon">
+                </div>
+    
+                <!-- Button -->
+                <a href="#" class="btn"><img src="img/Impresora.webp" height="20" alt="Print Resume"> Print Resume</a>
+            </div>   
+        </div>
+    </div>
+    
+    <!-- Info Section: ¿Quién Soy? -->
+    <section id="quien-soy" class="info-section">
+        <!-- Info Box 1: Quién soy -->
+        <div class="info-box">
+            <h2>¿QUIÉN SOY?</h2>
+            <p>Un diseñador / desarrollador web ubicado en nuestra tierra, apasionado por la creación de experiencias digitales excepcionales.</p>
+            <a href="path_to_cv.pdf" class="download-btn" download>Descargar Mi CV</a>
+        </div>
+    
+        <!-- Info Box 2: Información personal -->
+        <div class="info-box">
+            <h2>INFORMACIÓN PERSONAL</h2>
+            <p><strong>Email:</strong> frank@gmail.com</p>
+            <p><strong>Celular:</strong> 965026401</p>
+            <p><strong>Dirección:</strong> 12345FakeST, no White AB</p>
+        </div>
+    
+        <!-- Info Box 3: Especialidad -->
+        <div class="info-box">
+            <h2><section id="especialidad" class="info-section">
+                ESPECIALIDAD</h2>
+            <ul>
+                <li><img src="img/Python.webp" alt="Python" class="skill-icon">Python</li>
+                <li><img src="img/figma.webp" alt="Figma" class="skill-icon">Figma</li>
+                <li><img src="img/Js.webp" alt="JavaScript" class="skill-icon">JavaScript</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects-section">
+        <h2 class="section-title">NUESTROS PROYECTOS</h2>
+        <div class="projects-container">
+            <!-- Proyecto 1 -->
+            <div class="project-card">
+                <img src="img/Sitio web de desarrollo personal.jpg" alt="Proyecto 1" class="project-image">
+                <h3>Sitio web de desarrollo personal</h3>
+                <div class="actions">
+                    <button class="action-btn dislike">👎</button>
+                    <button class="action-btn love">❤</button>
+                    <button class="action-btn like">👍</button>
+                </div>
+            </div>
+    
+            <!-- Proyecto 2 -->
+            <div class="project-card">
+                <img src="img/Sitio web de moda.jpg" alt="Proyecto 2" class="project-image">
+                <h3>Sitio web de moda</h3>
+                <div class="actions">
+                    <button class="action-btn dislike">👎</button>
+                    <button class="action-btn love">❤</button>
+                    <button class="action-btn like">👍</button>
+                </div>
+            </div>
+    
+            <!-- Proyecto 3 -->
+            <div class="project-card">
+                <img src="img/Sitio web de fotografía.webp" alt="Proyecto 3" class="project-image">
+                <h3>Sitio web de fotografía</h3>
+                <div class="actions">
+                    <button class="action-btn dislike">👎</button>
+                    <button class="action-btn love">❤</button>
+                    <button class="action-btn like">👍</button>
+                </div>
+            </div>
+    
+            <!-- Proyecto 4 -->
+            <div class="project-card">
+                <img src="img/Sitio web de portafolio online.jpg" alt="Proyecto 4" class="project-image">
+                <h3>Sitio web de portafolio online</h3>
+                <div class="actions">
+                    <button class="action-btn dislike">👎</button>
+                    <button class="action-btn love">❤</button>
+                    <button class="action-btn like">👍</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Mi Video Section -->
+    <div class="video-container">
+        <video width="80%" controls>
+          <source src="video/nightcore-butterfly-unknown-skies-collaboration-with-angxlicleafa-1080-publer.io.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de video.
+        </video>
+      </div>
+      <!-- Sección de Contacto -->
+      <section id="contacto" class="contacto-section">
+        <div class="contacto-container">
+          <h2>Contacto</h2>
+          <p>Si tienes alguna pregunta o deseas más información, no dudes en ponerte en contacto conmigo.</p>
+          
+          <form action="mailto:ejemplo@correo.com" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>
+                    <strong>Franki Bonny</strong>. Copyright 2024-2024. Todos los derechos reservados.
+                    <br>
+                    Block alojado en <a href="https://www.webempresa.com/" target="_blank" rel="noopener noreferrer">Webempresa</a>.
+                </p>
+            </div>
+            <div class="footer-right">
+                <p>Síguenos en nuestras redes sociales:</p>
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/watch?v=cSpnJjM1H24&list=RDKheI_qHGT1o&index=14" target="_blank" title="YouTube"><img src="img/youtube.webp" alt="YouTube"></a>
+                    <a href="https://www.twitch.tv/?lang=es-ES" target="_blank" title="Twitch"><img src="img/Twitch.webp" alt="Twitch"></a>
+                    <a href="https://www.tiktok.com/es/" target="_blank" title="TikTok"><img src="img/TikTok.webp" alt="TikTok"></a>
+                    <a href="https://www.instagram.com/" target="_blank" title="Instagram"><img src="img/instagram.webp" alt="Instagram"></a>
+                    <a href="https://es.linkedin.com/" target="_blank" title="LinkedIn"><img src="img/Linkedin.webp" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
